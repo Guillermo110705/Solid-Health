@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="Contacto.css">
+</head>
+<body>
+    <div class="hm-wrapper">
+
+        <!-- =================================
+           HEADER MENU
+        ================================== -->
+        <div class="hm-header">
+
+            <div class="container">
+                <div class="header-menu">
+
+                    <div class="hm-logo">
+                        <a href="/Inicio.html">
+                            <img src="/Imagenes Inicio/Logo.png" alt="">
+                        </a>
+                    </div>
+
+                    <nav class="hm-menu">
+                        <ul>
+                            <li><a href="/Productos/Productos.html">Productos</a></li>
+                            <li><a href="/Asociaciones/Asociaciones.html">Asociaciones</a></li>
+                            <li><a href="/Nostros/Nosotros.html">Nosotros</a></li>
+                            <li><a href="/Contacto/Contacto.html">Contacto</a></li>
+                            
+                        </ul>
+
+
+
+                    </nav>
+
+                </div>
+            </div>
+
+        </div>
+  <div class="container">
+    <h1>Contacto</h1>
+    <form id="contactForm" method="POST" action="send_message.php">
+      <label for="name">Nombre:</label>
+      <input type="text" id="name" name="name" required>
+      <label for="email">Correo electrónico:</label>
+      <input type="email" id="email" name="email" required>
+      <label for="message">Mensaje:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div id="response"></div>
+  </div>
+
+  <script src="Contacto.js"></script>
+</body>
+</html>

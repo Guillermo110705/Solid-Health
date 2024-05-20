@@ -1,0 +1,24 @@
+[
+    {
+      "name": "Asociación de Salud",
+      "description": "Una asociación dedicada a promover la salud.",
+      "website": "https://www.asociacionsalud.com",
+      "category": "salud",
+      "image": "images/salud.jpg"
+    },
+    {
+      "name": "Asociación de Educación",
+      "description": "Una asociación dedicada a mejorar la educación.",
+      "website": "https://www.asociacioneducacion.com",
+      "category": "educacion",
+      "image": "images/educacion.jpg"
+    },
+    {
+      "name": "Asociación de Medio Ambiente",
+      "description": "Una asociación dedicada a proteger el medio ambiente.",
+      "website": "https://www.asociacionambiente.com",
+      "category": "ambiente",
+      "image": "images/ambiente.jpg"
+    }
+  ]
+  
